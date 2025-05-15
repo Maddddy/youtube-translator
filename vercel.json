@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "process.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/process",
+      "dest": "process.py"
+    }
+  ]
+}
