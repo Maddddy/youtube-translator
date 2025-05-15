@@ -10,7 +10,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from gtts import gTTS
 from pydub import AudioSegment
 
-GEMINI_API_KEY = "AIzaSyB_Ogy_9sbFRm9-SLd4ejOD7D6dwR_MIQM"
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 lang_map = {
     "english": "en",
