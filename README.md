@@ -2,8 +2,5 @@
 
 Translate and generate audio from YouTube videos in your preferred language using Gemini API + gTTS.
 
-### 🔧 Environment Variables
-
-Create a `.env` file or set this in Vercel's dashboard:
-
+Demo hosted on: https://huggingface.co/spaces/utsavsarda/yt-translator-demo
 
